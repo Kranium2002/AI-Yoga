@@ -39,12 +39,12 @@
 }
 
 .description {
-    font-size: 66px;
+    font-size: 48px;
     color: white;
     text-align: center;
     margin: 0px;
     margin-top: 10px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 0.5px;
 }
 

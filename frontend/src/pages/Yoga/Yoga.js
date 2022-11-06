@@ -249,6 +249,7 @@ function Yoga() {
             id="webcam"
             ref={webcamRef}
             
+            
           />
           <canvas
             ref={canvasRef}
