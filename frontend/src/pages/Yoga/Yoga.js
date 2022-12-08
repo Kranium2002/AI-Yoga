@@ -237,29 +237,27 @@ function Yoga() {
         <br></br>
         <div className='sidebysidecontainer'>
           <Webcam
-           
-            height="auto"
+            
+            
             id="webcam"
             ref={webcamRef}
-            style={{
-              width:"80vw",
-              
-              
-              
-              
-              zindex:100}}
+            width="300px"
+            height="200px"
+            
             
           />
           <canvas
             ref={canvasRef}
             id="my-canvas"
             
-            height="auto"
+            width="600px"
+            height="600px"
 
             style={{
-              width:"80vw",
+              width:"300px",
+              height:"100vw",
               
-              left:"0",
+              left:"15vw",
               
               position:"absolute",
               zindex:100}}
