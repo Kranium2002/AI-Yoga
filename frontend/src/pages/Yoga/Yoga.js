@@ -237,8 +237,8 @@ function Yoga() {
         <br></br>
         <div className='sidebysidecontainer'>
           <Webcam
-            width="100%"
-            height="100%"
+            width="400px"
+            height="auto"
             id="webcam"
             ref={webcamRef}
             
