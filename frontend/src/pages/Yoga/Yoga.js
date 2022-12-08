@@ -255,9 +255,9 @@ function Yoga() {
 
             style={{
               width:"300px",
-              height:"100vw",
+              height:"20rem",
               
-              left:"15vw",
+              
               
               position:"absolute",
               zindex:100}}

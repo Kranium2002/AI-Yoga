@@ -80,6 +80,7 @@
 
 #my-canvas {
     transform: rotateY(180deg);
+    left:"30rem";
 }
 
 
@@ -110,5 +111,9 @@
         height:14.9rem;
         margin-bottom: 1em;
     }
+    #my-canvas {
+        left:"15vw";
+    }
+    
     
 }
