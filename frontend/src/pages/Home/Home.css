@@ -1,6 +1,19 @@
 
 .home-header {
-    background: linear-gradient(100deg,#FF8C00, #FFA500);
+    background-image: linear-gradient(
+          -45deg, 
+          #ff7e7e 3%, 
+          #795eff 25%, 
+          #f263ff 55%, 
+          #ffd05b 100%
+    );  
+    animation: AnimateBG 16s ease infinite;
+  
+  @keyframes AnimateBG { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
     width: 100vw;
     height: 70px;
     display: flex;
@@ -32,7 +45,7 @@
     background: rgb(43, 43, 43);
     width: 100vw;
     height: 100vh;    
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0, 0, 0, 0.8)), url('../../utils/images/yoga_pose.png') ;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0, 0, 0, 0.8)), url('https://th.bing.com/th/id/R.9b7ac02c508e08f4214f194d5654b100?rik=8NtqmGJPYWuKHw&riu=http%3a%2f%2fthingtodoinindia.in%2fwp-content%2fuploads%2f2015%2f01%2fyoga-India.jpg&ehk=SRmYAnzArfZImZ9MGH2dMs4IfuB7cdj5CmXGQ4ZwKSg%3d&risl=&pid=ImgRaw&r=0') ;
     background-repeat: no-repeat;
     background-position: center;
     background-size:  750px;
@@ -61,7 +74,7 @@
     background-color: rgba(255, 255, 255, 0);
     color: white;
     font-size: 24px;
-    border-color: #FFA500;
+    border-color: #56cbfd;
     border-radius: 8px;
     border-width: 4px;
     cursor: pointer;

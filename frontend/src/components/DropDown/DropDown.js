@@ -7,9 +7,7 @@ import './DropDown.css'
 export default function DropDown({ poseList, currentPose, setCurrentPose }) {
 return (
         <div
-        className='dropdown dropdown-container'
-         
-      >
+        className='dropdown dropdown-container'>
         <button 
             className="btn btn-secondary dropdown-toggle"
             type='button'
@@ -23,19 +21,14 @@ return (
                 <li onClick={() => setCurrentPose(pose)}>
                     <div class="dropdown-item-container">
                         <p className="dropdown-item-1">{pose}</p>
-                        <img 
+                        <img alt="pose-img"
                             src={poseImages[pose]}
                             className="dropdown-img"
                         />
-                        
-                    </div>
+                        </div>
                 </li>
             ))}
-            
         </ul>
-              
-          
       </div>
-    )
-}
+    )}
  

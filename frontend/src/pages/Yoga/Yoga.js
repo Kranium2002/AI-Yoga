@@ -224,7 +224,6 @@ function Yoga() {
 
   if (isStartPose) {
     return (
-      
       <div className="yoga-container">
         <div className="performance-container">
           <div className="pose-performance">
@@ -236,38 +235,12 @@ function Yoga() {
         </div>
         <br></br>
         <div className='sidebysidecontainer'>
-          <Webcam
-            
-            
-            id="webcam"
-            ref={webcamRef}
-            width="300px"
-            height="200px"
-            
-            
-          />
-          <canvas
-            ref={canvasRef}
-            id="my-canvas"
-            
-            width="600px"
-            height="600px"
-
-            style={{
-              width:"300px",
-              height:"20rem",
-              
-              
-              
-              position:"absolute",
-              zindex:100}}
-            
-          ></canvas>
+          <Webcam id="webcam" ref={webcamRef} width="300px" height="200px"/>
+          <canvas ref={canvasRef} id="my-canvas" width="600px" height="500px"
+            style={{width:"300px", height:"20rem", position:"absolute", zindex:100}}></canvas>
           <div>
             <img src={poseImages[currentPose]} className="pose-img" alt="pose_pic" />
-          </div>
-          </div>
-          
+          </div></div>
         <br></br>
         <button onClick={stopPose} className="secondary-btn">
           Stop Pose

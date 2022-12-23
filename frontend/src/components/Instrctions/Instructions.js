@@ -17,11 +17,10 @@ export default function Instructions({ currentPose }) {
                     return(
                         <li className="instruction">{instruction}</li>
                     )
-                    
-                })}
+                    })}
             </ul>
             <img 
-                className="pose-demo-img"
+                className="pose-demo-img" alt="pose-img"
                 src={poseImages[currentPose]}
             />
         </div>
